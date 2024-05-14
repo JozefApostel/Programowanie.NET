@@ -1,6 +1,6 @@
 const Samochod = require('./samochod');
 
-// Przykładowe użycie klasy Samochod
+
 const s1 = new Samochod();
 s1.wypiszInfo();
 
