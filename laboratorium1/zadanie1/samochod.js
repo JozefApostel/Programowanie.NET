@@ -10,18 +10,15 @@ class Samochod {
 
     static iloscSamochodow = 0;
 
-    
     obliczSpalanie(dlugoscTrasy) {
         return (this.srednieSpalanie * dlugoscTrasy) / 100.0;
     }
 
-    
     obliczKosztPrzejazdu(dlugoscTrasy, cenaPaliwa) {
         const spalanie = this.obliczSpalanie(dlugoscTrasy);
         return spalanie * cenaPaliwa;
     }
 
-   
     wypiszInfo() {
         console.log("Marka: " + this.marka);
         console.log("Model: " + this.model);
@@ -30,7 +27,6 @@ class Samochod {
         console.log("Średnie spalanie: " + this.srednieSpalanie + " l/100km");
     }
 
-    
     static wypiszIloscSamochodow() {
         console.log("Liczba utworzonych samochodów: " + Samochod.iloscSamochodow);
     }
