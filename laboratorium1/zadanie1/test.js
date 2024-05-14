@@ -1,6 +1,5 @@
 const Samochod = require('./samochod');
 
-
 const s1 = new Samochod();
 s1.wypiszInfo();
 
